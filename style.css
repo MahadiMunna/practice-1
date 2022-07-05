@@ -1,0 +1,150 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.skip {
+    color: #FBA24F;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: rgba(87, 87, 87, 1);
+}
+
+#order p {
+    font-size: 20px;
+    color: rgba(130, 130, 130, 1);
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgba(251, 162, 79, 1), rgba(255, 30, 30, 1));
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-size: 15px;
+    box-shadow: .5px .5px 5px .5px orange;
+}
+
+.order-section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#order {
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+#order-img {
+    width: 50%;
+
+    float: right;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+#order-img img {
+    width: 100%;
+}
+
+.middle-section {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+
+
+.girl {
+    width: 50%;
+}
+
+.girl img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.about-me {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: rgba(87, 87, 87, 1);
+}
+
+.recipies {
+    text-align: center;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.recipies p {
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.recipe-items {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+}
+
+.recipe-item {
+    width: 45%;
+    border-radius: 30px;
+    padding: 2%;
+    box-shadow: 1px 1px 5px 1px grey;
+}
+
+.recipe-item img {
+    width: 100%;
+}
+/* #item1{
+    padding-left: 2%;
+}
+ #item2{
+    padding-left: 2%;
+ } */
+
+.box{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+#utube{
+    padding-left: 10%;
+}
+
+#ig{
+    padding-left: 20%;
+}
+#dribble{
+    padding-left: 20%;
+}
+footer{
+    background-color: black;
+    padding: 2% 6% 10% 6%;
+    text-align: center;
+}
+footer p{
+    color: white;
+}
